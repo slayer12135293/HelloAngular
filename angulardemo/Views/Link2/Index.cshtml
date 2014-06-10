@@ -1,0 +1,27 @@
+﻿@using angulardemo.Infrastructure
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div ng-controller="Link2controller">
+
+    <div big-banner2 bannertitle={{bigBanner.header}} bannertext={{bigBanner.text}}></div>
+
+</div>
+
+
+@Html.Partial("_freetextpartial")
+
+
+<div class="row">
+    <div class="span5" style="background-color:#ffd800">
+        <h3>the total number is: @Html.Sum(2,7).ToString()</h3>
+
+
+
+        @Html.Image("http://unseenflirtspoetry.files.wordpress.com/2012/05/homer-excited.png", "homer")
+    </div>
+</div>

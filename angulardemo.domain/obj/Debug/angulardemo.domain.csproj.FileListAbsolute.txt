@@ -1,0 +1,5 @@
+C:\VSprojects\angulardemo\angulardemo.domain\bin\angulardemo.domain.dll.config
+C:\VSprojects\angulardemo\angulardemo.domain\bin\angulardemo.domain.dll
+C:\VSprojects\angulardemo\angulardemo.domain\bin\angulardemo.domain.pdb
+C:\VSprojects\angulardemo\angulardemo.domain\obj\Debug\angulardemo.domain.dll
+C:\VSprojects\angulardemo\angulardemo.domain\obj\Debug\angulardemo.domain.pdb

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+  
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="http://getbootstrap.com/assets/css/docs.min.css">
+</head>
+<body  ng-app="LeiDemoApp">
+
+    @RenderBody()
+    
+   
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-resource.min.js"></script>
+
+    
+    @Scripts.Render("~/angularApp")
+
+    @RenderSection("Footer", false)
+
+</body>
+</html>

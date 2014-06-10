@@ -1,0 +1,59 @@
+﻿@model angulardemo.Models.IndexPageViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @Model.Title
+    <br />
+    ViewBag : @ViewBag.lei
+</div>
+
+
+
+<div ng-controller="Link1controller">
+
+    <div big-banner ></div>
+
+    <div class="container">
+        <form name="myform">
+            <fieldset>
+                <label>
+                    test1
+                    <input id="test1" type="text" required ng-model="object.test1" />
+                </label>
+                <br />
+                <label>
+                    test2
+                    <input id="test2" type="text" required ng-model="object.test2" />
+                </label>
+
+                <br />
+                <label>
+                    test3
+                    <input id="test3" type="text" ng-model="object.test3" />
+                </label>
+                <br />
+                <label>
+                    test4
+                    <input id="test4" type="text" ng-model="object.test4" />
+                </label>
+                <br />
+            </fieldset>
+
+
+            <input type="submit" class="btn btn-lg btn-primary" ng-disabled="myform.$invalid" value="submit" ng-click="submitform(object, myform)" />
+        </form>
+
+    </div>
+
+
+</div>
+
+
+
+@section Footer {
+    <div> this is the footer area</div>
+    
+    }
