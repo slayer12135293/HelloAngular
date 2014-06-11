@@ -21,11 +21,16 @@ LeiDemoApp.controller('Link1controller', ['$scope', function ($scope) {
 
 }]);
 
-LeiDemoApp.controller('Link2controller', ['$scope','dataService', function ($scope, dataService) {
+LeiDemoApp.controller('Link2controller', ['$scope','dataService', function ($scope) {
 
     $scope.bigBanner = { header: 'Welcome to Link2', text: 'just as amazing as link1' }
 
-    var promise = dataService.getData(3);
+  
+    $scope.popover1 = {
+        imageurl: 'http://lakernation.com/forums/public/style_emoticons/default/homer.gif',
+        id: 'popover1',
+        text: 'this is a popover text'
+    };
 
     
 

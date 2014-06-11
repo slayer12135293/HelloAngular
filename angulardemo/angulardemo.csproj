@@ -148,6 +148,7 @@
     <Content Include="Scripts\angular\Directives.js" />
     <Content Include="Scripts\angular\directivetemplates\bigbanner2.html" />
     <Content Include="Scripts\angular\directivetemplates\bigbanner.html" />
+    <Content Include="Scripts\angular\directivetemplates\popover.html" />
     <Content Include="Scripts\angular\Factories.js" />
     <Content Include="Scripts\angular\Routing.js" />
     <Content Include="Web.config">

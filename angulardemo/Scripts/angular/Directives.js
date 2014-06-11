@@ -20,3 +20,24 @@ LeiDemoApp.directive('bigBanner2', function () {
     }
 });
 
+
+LeiDemoApp.directive('popover', function () {
+    return {
+        restrict: 'AE',
+        templateUrl: 'Scripts/angular/directivetemplates/popover.html',
+        scope: {
+            templateModel: '=templatemodel'
+        },
+        controller: function($scope){
+            $scope.togglepopover = function (targetId) {
+                $("#"+id).toggle();
+            }
+            $scope.hideme = function(targetId){
+                $("#"+targetId).hide();
+            }
+
+        }
+
+    }
+
+});
