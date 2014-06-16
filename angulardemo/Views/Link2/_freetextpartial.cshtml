@@ -1,4 +1,11 @@
-﻿<div>
+﻿
+<div>
+    {{currentLocation}}
+    <br />
+    <input ng-model="query.param" />
+    <input ng-model="query.value" />
+    <button ng-click="addtoquery(query)">Add to query</button>
 
-    this is a free text partial
+    <button ng-click="getCurrentUrl()"> Get current Url</button>
+
 </div>

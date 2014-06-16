@@ -30,7 +30,7 @@ LeiDemoApp.directive('popover', function () {
         },
         controller: function($scope){
             $scope.togglepopover = function (targetId) {
-                $("#"+id).toggle();
+                $("#" + targetId).toggle();
             }
             $scope.hideme = function(targetId){
                 $("#"+targetId).hide();

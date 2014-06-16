@@ -21,10 +21,9 @@ LeiDemoApp.controller('Link1controller', ['$scope', function ($scope) {
 
 }]);
 
-LeiDemoApp.controller('Link2controller', ['$scope','dataService', function ($scope) {
+LeiDemoApp.controller('Link2controller', ['$scope', '$location', function ($scope, $location) {
 
     $scope.bigBanner = { header: 'Welcome to Link2', text: 'just as amazing as link1' }
-
   
     $scope.popover1 = {
         imageurl: 'http://lakernation.com/forums/public/style_emoticons/default/homer.gif',
@@ -32,6 +31,17 @@ LeiDemoApp.controller('Link2controller', ['$scope','dataService', function ($sco
         text: 'this is a popover text'
     };
 
+
+    $scope.currentLocation = $location.absUrl();
     
+    $scope.getCurrentUrl = function () {
+        $scope.currentLocation = $location.absUrl();
+    };
+
+
+    $scope.addtoquery = function (query) {
+        $location.search(query.param, query.value);
+    };
+
 
 }]);
