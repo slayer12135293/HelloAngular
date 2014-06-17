@@ -3,3 +3,8 @@ C:\VSprojects\angulardemo\angulardemo.domain\bin\angulardemo.domain.dll
 C:\VSprojects\angulardemo\angulardemo.domain\bin\angulardemo.domain.pdb
 C:\VSprojects\angulardemo\angulardemo.domain\obj\Debug\angulardemo.domain.dll
 C:\VSprojects\angulardemo\angulardemo.domain\obj\Debug\angulardemo.domain.pdb
+C:\KuoniSource\HelloAngular\angulardemo.domain\bin\angulardemo.domain.dll
+C:\KuoniSource\HelloAngular\angulardemo.domain\bin\angulardemo.domain.pdb
+C:\KuoniSource\HelloAngular\angulardemo.domain\obj\Debug\angulardemo.domain.csprojResolveAssemblyReference.cache
+C:\KuoniSource\HelloAngular\angulardemo.domain\obj\Debug\angulardemo.domain.dll
+C:\KuoniSource\HelloAngular\angulardemo.domain\obj\Debug\angulardemo.domain.pdb

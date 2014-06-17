@@ -1,0 +1,4 @@
+C:\KuoniSource\HelloAngular\angulardemo.domain\bin\angulardemo.domain.dll
+C:\KuoniSource\HelloAngular\angulardemo.domain\bin\angulardemo.domain.pdb
+C:\KuoniSource\HelloAngular\angulardemo.domain\obj\Release\angulardemo.domain.dll
+C:\KuoniSource\HelloAngular\angulardemo.domain\obj\Release\angulardemo.domain.pdb
