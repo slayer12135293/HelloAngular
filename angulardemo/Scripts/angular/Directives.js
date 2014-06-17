@@ -21,7 +21,7 @@ LeiDemoApp.directive('bigBanner2', function () {
 });
 
 
-LeiDemoApp.directive('popover', function () {
+LeiDemoApp.directive('popOver', function () {
     return {
         restrict: 'AE',
         templateUrl: 'Scripts/angular/directivetemplates/popover.html',
