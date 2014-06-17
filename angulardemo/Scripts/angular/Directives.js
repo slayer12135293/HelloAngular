@@ -22,6 +22,7 @@ LeiDemoApp.directive('bigBanner2', function () {
 
 
 LeiDemoApp.directive('popOver', function () {
+    alert("fired");
     return {
         restrict: 'AE',
         templateUrl: 'Scripts/angular/directivetemplates/popover.html',

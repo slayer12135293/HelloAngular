@@ -1,6 +1,6 @@
 ﻿<div class="imagehover">
-    <img src={{templateModel.imageurl}} ng-click="togglepopover(templateModel.id)" />
-    <div class="popover-layer" id="{{templateModel.id}}">
+    <img src={{templateModel.imageurl}} ng-click=togglepopover(templateModel.id) />
+    <div class="popover-layer" id={{templateModel.id}}>
         {{templateModel.text}}
 
         <img src="http://www.iuns.org/wp-content/themes/IUNS/images/closelabel.png" class="closeme" ng-click="hideme(templateModel.id)" />
