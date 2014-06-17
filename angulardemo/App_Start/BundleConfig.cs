@@ -7,9 +7,7 @@ namespace angulardemo
     {
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
-        {
-           
-
+        {           
             var angularBundle = new ScriptBundle("~/angular");
             angularBundle.CdnPath = "//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js";
             bundles.Add(angularBundle);
@@ -25,7 +23,7 @@ namespace angulardemo
 
             bundles.UseCdn = true;
 
-
+            //BundleTable.EnableOptimizations = true;
 
         }
     }

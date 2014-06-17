@@ -13,53 +13,44 @@
         position: absolute;
         top: 0;
         left: 88px;
-        display:none;
+        display: none;
     }
 
-    .imagehover img{
-        cursor:pointer;
+    .imagehover img {
+        cursor: pointer;
     }
 
     .closeme {
-        position:absolute;
+        position: absolute;
         right: -8px;
         top: -5px;
     }
-
 </style>
 
 <div ng-controller="Link2controller">
 
     <div big-banner2 bannertitle={{bigBanner.header}} bannertext={{bigBanner.text}}></div>
-</div>
 
+    @Html.Partial("_freetextpartial")
 
-@Html.Partial("_freetextpartial")
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                windows azure
+                <div pop-over templatemodel="popover1" aa={{popover1.id}} bb={{popover1.text}}></div>
 
+            </div>
 
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-5">
-            windows azure
-            <div pop-over templatemodel="popover1"></div>
-            
         </div>
+        <div class="row">
 
-    </div>
-
-
-
-
-    <div class="row">
-
-        <div class="span5" style="background-color:#ffd800">
-            <h3>the total number is: @Html.Sum(2, 7).ToString()</h3>
-            @Html.Image("http://unseenflirtspoetry.files.wordpress.com/2012/05/homer-excited.png", "homer")
+            <div class="span5" style="background-color:#ffd800">
+                <h3>the total number is: @Html.Sum(2, 7).ToString()</h3>
+                @Html.Image("http://unseenflirtspoetry.files.wordpress.com/2012/05/homer-excited.png", "homer")
+            </div>
         </div>
     </div>
+
+
+
 </div>
-
-
-

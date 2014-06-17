@@ -1,5 +1,5 @@
 ﻿
-
+'use strict';
 LeiDemoApp.controller('MainPageController', ['$scope', function ($scope) {
     $scope.teststring = "hello";
 }]);
@@ -17,9 +17,21 @@ LeiDemoApp.controller('Link1controller', ['$scope', function ($scope) {
 
 }]);
 
+LeiDemoApp.controller('popovercontroller', ['$scope', function ($scope) {
+    $scope.togglepopover = function (targetId) {
+        $("#" + targetId).toggle();
+    };
+    $scope.hideme = function (targetId) {
+        $("#" + targetId).hide();
+    };
+
+}]);
+
+
 LeiDemoApp.controller('Link2controller', ['$scope', '$location', function ($scope, $location) {
 
-    $scope.bigBanner = { header: 'Welcome to Link2', text: 'just as amazing as link1' };
+
+    $scope.bigBanner = { header: 'banner2', text: 'just as amazing as link1' };
   
     $scope.popover1 = {
         imageurl: 'http://lakernation.com/forums/public/style_emoticons/default/homer.gif',
