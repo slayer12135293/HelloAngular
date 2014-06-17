@@ -1,10 +1,10 @@
 ﻿'use strict';
 
-LeiDemoApp.directive('bigBanner', function () {  
+LeiDemoApp.directive('bigBanner', function () {
     return {
         restrict: 'A',
-        templateUrl: 'Scripts/angular/directivetemplates/bigbanner.html'      
-    }
+        templateUrl: 'Scripts/angular/directivetemplates/bigbanner.html'
+    };
 });
 
 
@@ -15,9 +15,9 @@ LeiDemoApp.directive('bigBanner2', function () {
         templateUrl: 'Scripts/angular/directivetemplates/bigbanner2.html',
         scope: {
             bannertitle: '@',
-            bannertext:'@'
+            bannertext: '@'
         }
-    }
+    };
 });
 
 
@@ -28,16 +28,15 @@ LeiDemoApp.directive('popover', function () {
         scope: {
             templateModel: '=templatemodel'
         },
-        controller: function($scope){
-            $scope.togglepopover = function (targetId) {
+        controller: function($scope) {
+            $scope.togglepopover = function(targetId) {
                 $("#" + targetId).toggle();
-            }
-            $scope.hideme = function(targetId){
-                $("#"+targetId).hide();
-            }
+            };
+            $scope.hideme = function(targetId) {
+                $("#" + targetId).hide();
+            };
 
         }
-
-    }
+    };
 
 });
