@@ -1,10 +1,7 @@
-﻿'use strict';
+﻿
 
 LeiDemoApp.controller('MainPageController', ['$scope', function ($scope) {
     $scope.teststring = "hello";
-
-
-
 }]);
 
 LeiDemoApp.controller('Link1controller', ['$scope', function ($scope) {
